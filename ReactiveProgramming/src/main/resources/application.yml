@@ -1,0 +1,24 @@
+server:
+
+ port: 8086
+
+logging:
+
+ level:
+
+  org.springframework.data.r2dbc: DEBUG
+
+spring:
+
+ r2dbc:
+
+  url: r2dbc:h2:mem:///test
+
+  name: sa
+
+  password:
+
+
+
+
+
